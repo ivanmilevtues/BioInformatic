@@ -44,17 +44,17 @@ def recursive_change(money, coins):
                 if num_coins + 1 < best_num_coins:
                     best_num_coins = num_coins + 1
             except NameError:
-                print('HERE')
                 best_num_coins = num_coins
-
     return best_num_coins
 
 
 
+def DPChange(money, coins, d):
+    
 
 def main():
     print(change(77))
-    print(recursive_change(77, [25, 20, 10, 5, 1]))
+    # print(recursive_change(77, [25, 20, 10, 5, 1]))
 
 if __name__ == '__main__':
     main()
